@@ -1,17 +1,19 @@
+*{
+  box-sizing: border-box;
+}
 body{
     font-family:'Merriweather', serif;
     margin:0;
     text-align:center;
     color:#40514E;
+    background-color: black;
   }
   h1{
     font-family:'Sacramento', cursive;
     font-size:6em;
-    /* color:rgba(255, 255, 255, 0.671); */
     color: white;
   }
   h2{
-    /* color:#66BFBF; */
     color: white;
     font-family:'Montserrat', sans-serif;
     font-size:2.5em;
@@ -20,20 +22,20 @@ body{
   }
  
   .top-container{
-    /* background-color:#E4F9F5;  */
-    /* background-color: rgb(180, 229, 241); */
-    position:relative;
+    background-image: url(images/trek2.jpg);
+    background-size: 1400px 500px;
+    height: 500px;
+    width: 100%;
+    background-position: center;
     background-color: black;
-
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
    
   }
-  .background-image{
-      position: relative;
-  }
   .title-text{
-      position: absolute;
-      top: 100px;
-      right: 250px;
+    padding-top: 50px;
       
   }
  
@@ -64,6 +66,7 @@ body{
   .middle-container{
       margin: 0;
     background-color: black;
+    display: block;
   }
   .bottom-container{
     background-color:rgb(240, 191, 59);
@@ -79,7 +82,6 @@ body{
   }
   .code-img{
     width:25%;
-    /* float:left; */
     margin-left:0px;
   }
   .intro{
